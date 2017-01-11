@@ -1,0 +1,1138 @@
+#services, #about
+{
+    background: #E74C3C;
+    color: #F0C6BC;
+}
+
+#about .decor,
+#services .decor {
+    fill: #E74C3C;
+}
+
+#services .service-items-slider .service-box {
+    color: #000;
+    background: #FFF;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#services .service-items-slider .service-box > h3,
+#services .service-items-slider .service-box > p {
+    color: #000;
+}
+
+#services .service-items-slider .service-box .icon {
+    border: 5px solid #E74C3C;
+}
+
+#services h2.title,
+#about h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#services .service-items-slider li:hover .service-box {
+    background: #E74C3C;
+    border: 1px solid #FFF;
+}
+
+#services .service-items-slider li:hover .service-box  > h3,
+#services .service-items-slider li:hover .service-box  > p {
+    color: #fff;
+}
+
+#about .members-slider .members-box {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#about .members-slider .members-box .photo {
+    border: 5px solid #E74C3C;
+}
+
+#about .members-box .name-team {
+    color: #000;
+}
+
+#about .members-box .position-team {
+    color: #000;
+}
+
+#about .members-box .socialicons li a {
+    background:  url(../images/social_sprite.png) no-repeat;
+    border: 1px solid #E74C3C;
+}
+
+#about .members-slider .members-box:hover {
+    background-color: #E74C3C;
+    border: 1px solid #FFF;
+}
+
+#about .members-box:hover .name-team {
+    color: #fff;
+}
+
+#about .members-box:hover .position-team {
+    color: #fff;
+}
+
+#about .members-box .socialicons li a.gplus,
+#about .members-box .socialicons li a.facebook,
+#about .members-box .socialicons li a.twitter,
+#about .members-box .socialicons li a.linkedin{
+    background-color: #E74C3C;
+}
+
+#about .members-box .socialicons li a.gplus:hover,
+#about .members-box .socialicons li a.facebook:hover,
+#about .members-box .socialicons li a.twitter:hover,
+#about .members-box .socialicons li a.linkedin:hover{
+    background-color: transparent;
+    border: 1px solid #FFF;
+}
+
+#work {
+    background: #E74C3C;
+    color: #F0C6BC;
+}
+
+#work h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#work .decor {
+    fill: #E74C3C;
+}
+
+#work p.section-desc {
+    color: #F0C6BC;
+}
+
+#work #work-filters li {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#work #work-filters li:hover,
+#work #work-filters li.active {
+    background-color: #fff;
+    color: #000;
+}
+
+#contacts {
+    background: #E74C3C;
+    color: #F0C6BC;
+}
+
+#contacts h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#contacts .decor {
+    fill: #E74C3C;
+}
+
+#contacts .contact-info p, #contacts .contact-info address {
+    color: #F0C6BC;
+}
+
+#contacts .two-cols .form-inline .form-group .input-group .form-control {
+    border-bottom: 1px solid #D22424;
+}
+
+#contacts .form-inline .btn-primary:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#contacts .two-cols .form-inline .form-group .input-group .form-control {
+    color: #fff;
+}
+
+#contacts .two-cols .form-inline .form-group .input-group .form-control option {
+    color: #000;
+}
+
+#contacts .form-inline .input-group .form-control::-webkit-input-placeholder {
+    color: #F0C6BC;
+}
+
+#contacts .form-inline .input-group .form-control::-ms-input-placeholder {
+    color: #F0C6BC;
+}
+
+#contacts .form-inline .input-group .form-control::-moz-placeholder {
+    color: #F0C6BC;
+}
+
+#contacts .form-inline .input-group .form-control:-moz-placeholder {
+    color: #F0C6BC;
+}
+
+
+
+/** ===========================================================
+    Dark-Green
+    ============================================================ **/
+/*
+
+#services, #about
+{
+    background: #005556;
+    color: #F0C6BC;
+}
+
+#about .decor,
+#services .decor {
+    fill: #005556;
+}
+
+#services .service-items-slider .service-box {
+    color: #000;
+    background: #FFF;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#services .service-items-slider .service-box > h3,
+#services .service-items-slider .service-box > p {
+    color: #000;
+}
+
+#services .service-items-slider .service-box .icon {
+    border: 5px solid #005556;
+}
+
+#services h2.title,
+#about h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#services .service-items-slider li:hover .service-box {
+    background: #005556;
+    border: 1px solid #FFF;
+}
+
+#services .service-items-slider li:hover .service-box  > h3,
+#services .service-items-slider li:hover .service-box  > p {
+    color: #fff;
+}
+
+#about .members-slider .members-box {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#about .members-slider .members-box .photo {
+    border: 5px solid #005556;
+}
+
+#about .members-box .name-team {
+    color: #000;
+}
+
+#about .members-box .position-team {
+    color: #000;
+}
+
+#about .members-box .socialicons li a {
+    background:  url(../images/social_sprite.png) no-repeat;
+    border: 1px solid #005556;
+}
+
+#about .members-slider .members-box:hover {
+    background-color: #005556;
+    border: 1px solid #FFF;
+}
+
+#about .members-box:hover .name-team {
+    color: #fff;
+}
+
+#about .members-box:hover .position-team {
+    color: #fff;
+}
+
+#about .members-box .socialicons li a.gplus,
+#about .members-box .socialicons li a.facebook,
+#about .members-box .socialicons li a.twitter,
+#about .members-box .socialicons li a.linkedin{
+    background-color: #005556;
+}
+
+#about .members-box .socialicons li a.gplus:hover,
+#about .members-box .socialicons li a.facebook:hover,
+#about .members-box .socialicons li a.twitter:hover,
+#about .members-box .socialicons li a.linkedin:hover{
+    background-color: transparent;
+    border: 1px solid #FFF;
+}
+
+#work {
+    background: #005556;
+    color: #F0C6BC;
+}
+
+#work h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#work .decor {
+    fill: #005556;
+}
+
+#work p.section-desc {
+    color: #F0C6BC;
+}
+
+#work #work-filters li {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#work #work-filters li:hover,
+#work #work-filters li.active {
+    background-color: #fff;
+    color: #000;
+}
+
+#contacts {
+    background: #005556;
+    color: #F0C6BC;
+}
+
+#contacts h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#contacts .decor {
+    fill: #005556;
+}
+
+#contacts .contact-info p, #contacts .contact-info address {
+    color: #F0C6BC;
+}
+
+#contacts .two-cols .form-inline .form-group .input-group .form-control {
+    border-bottom: 1px solid #D22424;
+}
+
+#contacts .form-inline .btn-primary:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#contacts .two-cols .form-inline .form-group .input-group .form-control {
+    color: #fff;
+}
+
+#contacts .two-cols .form-inline .form-group .input-group .form-control option {
+    color: #000;
+}
+
+#contacts .form-inline .input-group .form-control::-webkit-input-placeholder {
+    color: #F0C6BC;
+}
+
+#contacts .form-inline .input-group .form-control::-ms-input-placeholder {
+    color: #F0C6BC;
+}
+
+#contacts .form-inline .input-group .form-control::-moz-placeholder {
+    color: #F0C6BC;
+}
+
+#contacts .form-inline .input-group .form-control:-moz-placeholder {
+    color: #F0C6BC;
+}
+*/
+
+/** ===========================================================
+    Dark-Ping
+    ============================================================ **/
+/*
+
+#services, #about
+{
+    background: #7D1935;
+    color: #B8CAD5;
+}
+
+#about .decor,
+#services .decor {
+    fill: #7D1935;
+}
+
+#services .service-items-slider .service-box {
+    color: #000;
+    background: #FFF;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#services .service-items-slider .service-box > h3,
+#services .service-items-slider .service-box > p {
+    color: #000;
+}
+
+#services .service-items-slider .service-box .icon {
+    border: 5px solid #7D1935;
+}
+
+#services h2.title,
+#about h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#services .service-items-slider li:hover .service-box {
+    background: #7D1935;
+    border: 1px solid #FFF;
+}
+
+#services .service-items-slider li:hover .service-box  > h3,
+#services .service-items-slider li:hover .service-box  > p {
+    color: #fff;
+}
+
+#about .members-slider .members-box {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#about .members-slider .members-box .photo {
+    border: 5px solid #7D1935;
+}
+
+#about .members-box .name-team {
+    color: #000;
+}
+
+#about .members-box .position-team {
+    color: #000;
+}
+
+#about .members-box .socialicons li a {
+    background:  url(../images/social_sprite.png) no-repeat;
+    border: 1px solid #7D1935;
+}
+
+#about .members-slider .members-box:hover {
+    background-color: #7D1935;
+    border: 1px solid #FFF;
+}
+
+#about .members-box:hover .name-team {
+    color: #fff;
+}
+
+#about .members-box:hover .position-team {
+    color: #fff;
+}
+
+#about .members-box .socialicons li a.gplus,
+#about .members-box .socialicons li a.facebook,
+#about .members-box .socialicons li a.twitter,
+#about .members-box .socialicons li a.linkedin{
+    background-color: #7D1935;
+}
+
+#about .members-box .socialicons li a.gplus:hover,
+#about .members-box .socialicons li a.facebook:hover,
+#about .members-box .socialicons li a.twitter:hover,
+#about .members-box .socialicons li a.linkedin:hover{
+    background-color: transparent;
+    border: 1px solid #FFF;
+}
+
+#work {
+    background: #7D1935;
+    color: #B8CAD5;
+}
+
+#work h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#work .decor {
+    fill: #7D1935;
+}
+
+#work p.section-desc {
+    color: #B8CAD5;
+}
+
+#work #work-filters li {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#work #work-filters li:hover,
+#work #work-filters li.active {
+    background-color: #fff;
+    color: #000;
+}
+
+#contacts {
+    background: #7D1935;
+    color: #B8CAD5;
+}
+
+#contacts h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#contacts .decor {
+    fill: #7D1935;
+}
+
+#contacts .contact-info p, #contacts .contact-info address {
+    color: #B8CAD5;
+}
+
+#contacts .two-cols .form-inline .form-group .input-group .form-control {
+    border-bottom: 1px solid #95C6F5;
+}
+
+#contacts .form-inline .btn-primary:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+*/
+
+
+
+
+/** ===========================================================
+    Midnight-Blue
+    ============================================================ **/
+/*
+
+#services, #about
+{
+    background: #2c3e50;
+    color: #B8CAD5;
+}
+
+#about .decor,
+#services .decor {
+    fill: #2c3e50;
+}
+
+#services .service-items-slider .service-box {
+    color: #000;
+    background: #FFF;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#services .service-items-slider .service-box > h3,
+#services .service-items-slider .service-box > p {
+    color: #000;
+}
+
+#services .service-items-slider .service-box .icon {
+    border: 5px solid #2c3e50;
+}
+
+#services h2.title,
+#about h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#services .service-items-slider li:hover .service-box {
+    background: #2c3e50;
+    border: 1px solid #FFF;
+}
+
+#services .service-items-slider li:hover .service-box  > h3,
+#services .service-items-slider li:hover .service-box  > p {
+    color: #fff;
+}
+
+#about .members-slider .members-box {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#about .members-slider .members-box .photo {
+    border: 5px solid #2c3e50;
+}
+
+#about .members-box .name-team {
+    color: #000;
+}
+
+#about .members-box .position-team {
+    color: #000;
+}
+
+#about .members-box .socialicons li a {
+    background:  url(../images/social_sprite.png) no-repeat;
+    border: 1px solid #2c3e50;
+}
+
+#about .members-slider .members-box:hover {
+    background-color: #2c3e50;
+    border: 1px solid #FFF;
+}
+
+#about .members-box:hover .name-team {
+    color: #fff;
+}
+
+#about .members-box:hover .position-team {
+    color: #fff;
+}
+
+#about .members-box .socialicons li a.gplus,
+#about .members-box .socialicons li a.facebook,
+#about .members-box .socialicons li a.twitter,
+#about .members-box .socialicons li a.linkedin{
+    background-color: #2c3e50;
+}
+
+#about .members-box .socialicons li a.gplus:hover,
+#about .members-box .socialicons li a.facebook:hover,
+#about .members-box .socialicons li a.twitter:hover,
+#about .members-box .socialicons li a.linkedin:hover{
+    background-color: transparent;
+    border: 1px solid #FFF;
+}
+
+#work {
+    background: #2c3e50;
+    color: #B8CAD5;
+}
+
+#work h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#work .decor {
+    fill: #2c3e50;
+}
+
+#work p.section-desc {
+    color: #B8CAD5;
+}
+
+#work #work-filters li {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#work #work-filters li:hover,
+#work #work-filters li.active {
+    background-color: #fff;
+    color: #000;
+}
+
+#contacts {
+    background: #2c3e50;
+    color: #B8CAD5;
+}
+
+#contacts h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#contacts .decor {
+    fill: #2c3e50;
+}
+
+#contacts .contact-info p, #contacts .contact-info address {
+    color: #B8CAD5;
+}
+
+#contacts .two-cols .form-inline .form-group .input-group .form-control {
+    border-bottom: 1px solid #95C6F5;
+}
+
+#contacts .form-inline .btn-primary:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+*/
+
+
+
+/** ===========================================================
+    Pumpkin
+    ============================================================ **/
+/*
+
+#services, #about
+{
+    background: #d35400;
+    color: #B8CAD5;
+}
+
+#about .decor,
+#services .decor {
+    fill: #d35400;
+}
+
+#services .service-items-slider .service-box {
+    color: #000;
+    background: #FFF;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#services .service-items-slider .service-box > h3,
+#services .service-items-slider .service-box > p {
+    color: #000;
+}
+
+#services .service-items-slider .service-box .icon {
+    border: 5px solid #d35400;
+}
+
+#services h2.title,
+#about h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#services .service-items-slider li:hover .service-box {
+    background: #d35400;
+    border: 1px solid #FFF;
+}
+
+#services .service-items-slider li:hover .service-box  > h3,
+#services .service-items-slider li:hover .service-box  > p {
+    color: #fff;
+}
+
+#about .members-slider .members-box {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#about .members-slider .members-box .photo {
+    border: 5px solid #d35400;
+}
+
+#about .members-box .name-team {
+    color: #000;
+}
+
+#about .members-box .position-team {
+    color: #000;
+}
+
+#about .members-box .socialicons li a {
+    background:  url(../images/social_sprite.png) no-repeat;
+    border: 1px solid #d35400;
+}
+
+#about .members-slider .members-box:hover {
+    background-color: #d35400;
+    border: 1px solid #FFF;
+}
+
+#about .members-box:hover .name-team {
+    color: #fff;
+}
+
+#about .members-box:hover .position-team {
+    color: #fff;
+}
+
+#about .members-box .socialicons li a.gplus,
+#about .members-box .socialicons li a.facebook,
+#about .members-box .socialicons li a.twitter,
+#about .members-box .socialicons li a.linkedin{
+    background-color: #d35400;
+}
+
+#about .members-box .socialicons li a.gplus:hover,
+#about .members-box .socialicons li a.facebook:hover,
+#about .members-box .socialicons li a.twitter:hover,
+#about .members-box .socialicons li a.linkedin:hover{
+    background-color: transparent;
+    border: 1px solid #FFF;
+}
+
+#work {
+    background: #d35400;
+    color: #B8CAD5;
+}
+
+#work h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#work .decor {
+    fill: #d35400;
+}
+
+#work p.section-desc {
+    color: #B8CAD5;
+}
+
+#work #work-filters li {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#work #work-filters li:hover,
+#work #work-filters li.active {
+    background-color: #fff;
+    color: #000;
+}
+
+#contacts {
+    background: #d35400;
+    color: #B8CAD5;
+}
+
+#contacts h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#contacts .decor {
+    fill: #d35400;
+}
+
+#contacts .contact-info p, #contacts .contact-info address {
+    color: #B8CAD5;
+}
+
+#contacts .two-cols .form-inline .form-group .input-group .form-control {
+    border-bottom: 1px solid #95C6F5;
+}
+
+#contacts .form-inline .btn-primary:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+/** ===========================================================
+     Green-Sea
+    ============================================================ **/
+/*
+
+#services, #about
+{
+    background: #16a085;
+    color: #B8CAD5;
+}
+
+#about .decor,
+#services .decor {
+    fill: #16a085;
+}
+
+#services .service-items-slider .service-box {
+    color: #000;
+    background: #FFF;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#services .service-items-slider .service-box > h3,
+#services .service-items-slider .service-box > p {
+    color: #000;
+}
+
+#services .service-items-slider .service-box .icon {
+    border: 5px solid #16a085;
+}
+
+#services h2.title,
+#about h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#services .service-items-slider li:hover .service-box {
+    background: #16a085;
+    border: 1px solid #FFF;
+}
+
+#services .service-items-slider li:hover .service-box  > h3,
+#services .service-items-slider li:hover .service-box  > p {
+    color: #fff;
+}
+
+#about .members-slider .members-box {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#about .members-slider .members-box .photo {
+    border: 5px solid #16a085;
+}
+
+#about .members-box .name-team {
+    color: #000;
+}
+
+#about .members-box .position-team {
+    color: #000;
+}
+
+#about .members-box .socialicons li a {
+    background:  url(../images/social_sprite.png) no-repeat;
+    border: 1px solid #16a085;
+}
+
+#about .members-slider .members-box:hover {
+    background-color: #16a085;
+    border: 1px solid #FFF;
+}
+
+#about .members-box:hover .name-team {
+    color: #fff;
+}
+
+#about .members-box:hover .position-team {
+    color: #fff;
+}
+
+#about .members-box .socialicons li a.gplus,
+#about .members-box .socialicons li a.facebook,
+#about .members-box .socialicons li a.twitter,
+#about .members-box .socialicons li a.linkedin{
+    background-color: #16a085;
+}
+
+#about .members-box .socialicons li a.gplus:hover,
+#about .members-box .socialicons li a.facebook:hover,
+#about .members-box .socialicons li a.twitter:hover,
+#about .members-box .socialicons li a.linkedin:hover{
+    background-color: transparent;
+    border: 1px solid #FFF;
+}
+
+#work {
+    background: #16a085;
+    color: #B8CAD5;
+}
+
+#work h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#work .decor {
+    fill: #16a085;
+}
+
+#work p.section-desc {
+    color: #B8CAD5;
+}
+
+#work #work-filters li {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#work #work-filters li:hover,
+#work #work-filters li.active {
+    background-color: #fff;
+    color: #000;
+}
+
+#contacts {
+    background: #16a085;
+    color: #B8CAD5;
+}
+
+#contacts h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#contacts .decor {
+    fill: #16a085;
+}
+
+#contacts .contact-info p, #contacts .contact-info address {
+    color: #B8CAD5;
+}
+
+#contacts .two-cols .form-inline .form-group .input-group .form-control {
+    border-bottom: 1px solid #95C6F5;
+}
+
+#contacts .form-inline .btn-primary:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+*/
+
+/** ===========================================================
+ Blue
+    ============================================================ **/
+/*
+#services, #about
+{
+    background: #6692A6;
+    color: #B8CAD5;
+}
+
+#about .decor,
+#services .decor {
+    fill: #6692A6;
+}
+
+#services .service-items-slider .service-box {
+    color: #000;
+    background: #FFF;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#services .service-items-slider .service-box > h3,
+#services .service-items-slider .service-box > p {
+    color: #000;
+}
+
+#services .service-items-slider .service-box .icon {
+    border: 5px solid #6692A6;
+}
+
+#services h2.title,
+#about h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#services .service-items-slider li:hover .service-box {
+    background: #6692A6;
+    border: 1px solid #FFF;
+}
+
+#services .service-items-slider li:hover .service-box  > h3,
+#services .service-items-slider li:hover .service-box  > p {
+    color: #fff;
+}
+
+#about .members-slider .members-box {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+#about .members-slider .members-box .photo {
+    border: 5px solid #6692A6;
+}
+
+#about .members-box .name-team {
+    color: #000;
+}
+
+#about .members-box .position-team {
+    color: #000;
+}
+
+#about .members-box .socialicons li a {
+    background:  url(../images/social_sprite.png) no-repeat;
+    border: 1px solid #6692A6;
+}
+
+#about .members-slider .members-box:hover {
+    background-color: #6692A6;
+    border: 1px solid #FFF;
+}
+
+#about .members-box:hover .name-team {
+    color: #fff;
+}
+
+#about .members-box:hover .position-team {
+    color: #fff;
+}
+
+#about .members-box .socialicons li a.gplus,
+#about .members-box .socialicons li a.facebook,
+#about .members-box .socialicons li a.twitter,
+#about .members-box .socialicons li a.linkedin{
+    background-color: #6692A6;
+}
+
+#about .members-box .socialicons li a.gplus:hover,
+#about .members-box .socialicons li a.facebook:hover,
+#about .members-box .socialicons li a.twitter:hover,
+#about .members-box .socialicons li a.linkedin:hover{
+    background-color: transparent;
+    border: 1px solid #FFF;
+}
+
+#work {
+    background: #6692A6;
+    color: #B8CAD5;
+}
+
+#work h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#work .decor {
+    fill: #6692A6;
+}
+
+#work p.section-desc {
+    color: #B8CAD5;
+}
+
+#work #work-filters li {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#work #work-filters li:hover,
+#work #work-filters li.active {
+    background-color: #fff;
+    color: #000;
+}
+
+#contacts {
+    background: #6692A6;
+    color: #B8CAD5;
+}
+
+#contacts h2.title {
+    color: #fff;
+    font-weight: 300;
+}
+
+#contacts .decor {
+    fill: #6692A6;
+}
+
+#contacts .contact-info p, #contacts .contact-info address {
+    color: #B8CAD5;
+}
+
+#contacts .two-cols .form-inline .form-group .input-group .form-control {
+    border-bottom: 1px solid #95C6F5;
+}
+
+#contacts .form-inline .btn-primary:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+*/
